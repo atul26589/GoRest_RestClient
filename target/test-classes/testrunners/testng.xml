@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="GoRest_RestClient" verbose="1" parallel="tests" thread-count="3">
+
+	<listeners>
+		<listener class-name="com.qa.api.gorest.listeners.ExtentReportListener" />
+		<listener class-name="com.qa.api.gorest.listeners.TesultsListener" />
+		
+	</listeners>
+
+	<test name="Rest API regression Test" parallel="classes"
+		thread-count="3">
+		<classes>
+			<class name="com.qa.api.gorest.testcases.CreateUserTest" />
+			<class name="com.qa.api.gorest.testcases.GetUserTest" />
+			<class name="com.qa.api.gorest.testcases.UpdateUserTest" />
+			<class name="com.qa.api.gorest.testcases.GetImgurAPITest" />
+		</classes>
+	</test>
+</suite>

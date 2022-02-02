@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GoRest_RestClient" duration-ms="10833" started-at="2021-12-08T01:06:34 IST" finished-at="2021-12-08T01:06:45 IST">
+    <groups>
+    </groups>
+    <test name="Rest API regression Test" duration-ms="10833" started-at="2021-12-08T01:06:34 IST" finished-at="2021-12-08T01:06:45 IST">
+      <class name="com.qa.api.gorest.testcases.GetUserTest">
+        <test-method status="PASS" signature="getAllUserListAPITest()[pri:1, instance:com.qa.api.gorest.testcases.GetUserTest@5d20e46]" name="getAllUserListAPITest" duration-ms="3919" started-at="2021-12-08T01:06:34 IST" finished-at="2021-12-08T01:06:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUserListAPITest -->
+        <test-method status="PASS" signature="getUserWithQueryParamsAPITest()[pri:2, instance:com.qa.api.gorest.testcases.GetUserTest@5d20e46]" name="getUserWithQueryParamsAPITest" duration-ms="315" started-at="2021-12-08T01:06:38 IST" finished-at="2021-12-08T01:06:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserWithQueryParamsAPITest -->
+      </class> <!-- com.qa.api.gorest.testcases.GetUserTest -->
+      <class name="com.qa.api.gorest.testcases.GetImgurAPITest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.api.gorest.testcases.GetImgurAPITest@709ba3fb]" name="setUp" is-config="true" duration-ms="4447" started-at="2021-12-08T01:06:34 IST" finished-at="2021-12-08T01:06:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAccountBlockStatusTest()[pri:0, instance:com.qa.api.gorest.testcases.GetImgurAPITest@709ba3fb]" name="getAccountBlockStatusTest" duration-ms="1138" started-at="2021-12-08T01:06:39 IST" finished-at="2021-12-08T01:06:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccountBlockStatusTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.api.gorest.testcases.GetImgurAPITest@709ba3fb]" name="setUp" is-config="true" duration-ms="1116" started-at="2021-12-08T01:06:40 IST" finished-at="2021-12-08T01:06:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAccountImagesTest()[pri:0, instance:com.qa.api.gorest.testcases.GetImgurAPITest@709ba3fb]" name="getAccountImagesTest" duration-ms="1231" started-at="2021-12-08T01:06:41 IST" finished-at="2021-12-08T01:06:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccountImagesTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.api.gorest.testcases.GetImgurAPITest@709ba3fb]" name="setUp" is-config="true" duration-ms="1015" started-at="2021-12-08T01:06:42 IST" finished-at="2021-12-08T01:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="uploadImagePostAPITest()[pri:0, instance:com.qa.api.gorest.testcases.GetImgurAPITest@709ba3fb]" name="uploadImagePostAPITest" duration-ms="1816" started-at="2021-12-08T01:06:43 IST" finished-at="2021-12-08T01:06:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadImagePostAPITest -->
+      </class> <!-- com.qa.api.gorest.testcases.GetImgurAPITest -->
+      <class name="com.qa.api.gorest.testcases.CreateUserTest">
+        <test-method status="PASS" signature="createUserAPIPOSTTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.testcases.CreateUserTest@7364985f]" name="createUserAPIPOSTTest" duration-ms="3001" started-at="2021-12-08T01:06:35 IST" data-provider="getUserData" finished-at="2021-12-08T01:06:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[as@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAPIPOSTTest -->
+        <test-method status="PASS" signature="createUserAPIPOSTTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.testcases.CreateUserTest@7364985f]" name="createUserAPIPOSTTest" duration-ms="444" started-at="2021-12-08T01:06:38 IST" data-provider="getUserData" finished-at="2021-12-08T01:06:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shyam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sr@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAPIPOSTTest -->
+        <test-method status="PASS" signature="createUserAPIPOSTTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.testcases.CreateUserTest@7364985f]" name="createUserAPIPOSTTest" duration-ms="305" started-at="2021-12-08T01:06:39 IST" data-provider="getUserData" finished-at="2021-12-08T01:06:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shiv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ss@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAPIPOSTTest -->
+        <test-method status="PASS" signature="createUserAPIPOSTTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.testcases.CreateUserTest@7364985f]" name="createUserAPIPOSTTest" duration-ms="313" started-at="2021-12-08T01:06:39 IST" data-provider="getUserData" finished-at="2021-12-08T01:06:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shakti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ssr@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAPIPOSTTest -->
+      </class> <!-- com.qa.api.gorest.testcases.CreateUserTest -->
+    </test> <!-- Rest API regression Test -->
+  </suite> <!-- GoRest_RestClient -->
+</testng-results>
